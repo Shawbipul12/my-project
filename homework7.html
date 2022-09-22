@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>homework2.html</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>homework7.html</title>
+    <style>
+        table,th,tr,td
+        {
+            border: 2px  solid rgb(71, 69, 69);
+            border-radius: 2px;
+            border-collapse:collapse;
+        }
+    </style>
 </head>
 <body>
-    <table border="1" align="center" cellpadding="15" cellspacing="15">
-        <h1 align="center"><b>Time Table</b></h1>
-        <th>mon</th>
-        <th>tues</th>
-        <th>Wed</th>
-        <th>Thrus</th>
-        <th>Fri</th>
+    <table align="center" border="5" width="10%">
+        <th colspan="7">Time Table</th>
+        <tr>
+            <td rowspan="7">Hours</td>
+            <th>mon</th>
+            <th>tues</th>
+            <th>Wed</th>
+            <th>Thrus</th>
+            <th>Fri</th>
         </tr>
         <tr>
             <td>Science</td>
@@ -30,7 +39,22 @@
             <td>Maths</td>
             <td>Arts</td>
         </tr>
-        
+        <tr>
+            <th colspan="5" align="middle">Lunch</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>
     </table>
 </body>
 </html>
